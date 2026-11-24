@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Purv Group | Plastic Caps, Preforms, Films & Packaging Manufacturer and Exporter</title>
+<meta name="description" content="Purv Group manufactures and exports PET preforms, caps and closures, handles, shrink films and flexible packaging from Kolkata, India. Request a quote.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Sora:wght@400;600;700&family=Manrope:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<canvas id="bg" aria-hidden="true"></canvas>
+<div class="progress" id="progress"></div>
+<div class="planet-tag" id="planetTag" aria-hidden="true"></div>
+
+<header class="nav" id="nav">
+  <a href="#home" class="brand">Purv Group</a>
+  <nav id="menu" aria-label="Main">
+    <a href="#about">About</a>
+    <a href="#products">Products</a>
+    <a href="#companies">Group Companies</a>
+    <a href="#careers">Careers</a>
+    <a href="#contact" class="btn btn-sm">Get a quote</a>
+  </nav>
+  <button class="burger" id="burger" aria-label="Open menu" aria-expanded="false"><span></span><span></span></button>
+</header>
+
+<main>
+  <section id="home" class="hero">
+    <div class="hero-copy">
+      <h1 class="line"><span>Plastic packaging,</span></h1>
+      <h1 class="line"><span>made in India,</span></h1>
+      <h1 class="line"><span>shipped worldwide.</span></h1>
+      <p class="lead line"><span>PET preforms, caps and closures, handles and shrink films from a group that supplies Bisleri, Rail Neer, Patanjali and Kingfisher.</span></p>
+      <div class="cta line">
+        <a href="#contact" class="btn">Request a quote</a>
+        <a href="#products" class="btn btn-ghost">Browse products</a>
+      </div>
+    </div>
+    <div class="scroll-hint">Scroll to fly through the solar system</div>
+  </section>
+
+  <section id="about" class="panel">
+    <h2 class="reveal">A diversified group built on polymers</h2>
+    <div class="cols">
+      <div class="reveal">
+        <p>Purv Group is a Pan India conglomerate based in Kolkata, with subsidiaries in trading, manufacturing, recycling, education and agriculture. Our flagship, Cool Caps Industries, is listed on the NSE.</p>
+        <p>We buy resin at scale, run modern machinery and recycle PET bottles back into flakes, so customers get one dependable source from raw material to finished closure.</p>
+      </div>
+      <ul class="facts reveal">
+        <li><b>Quality first</b>Top-grade raw materials, reputed partners and state-of-the-art machines.</li>
+        <li><b>Trusted supply partners</b>Distributors for Indian Oil, SRF, UFLEX, Jubilant and Podar Pigments.</li>
+        <li><b>One-stop sourcing</b>Films, closures, preforms and inks under one roof.</li>
+      </ul>
+    </div>
+    <h3 class="reveal">Leadership</h3>
+    <div class="leaders reveal">
+      <article class="glass tilt"><div class="avatar">RG</div><h4>Rajeev Goenka</h4><p>Add title and a two-line bio here.</p></article>
+      <article class="glass tilt"><div class="avatar">+</div><h4>Add leader</h4><p>Duplicate this card for each director.</p></article>
+    </div>
+  </section>
+
+  <section id="products" class="panel">
+    <h2 class="reveal">Products we manufacture and export</h2>
+    <p class="sub reveal">Custom neck finishes, weights, colours and print on request. Tell us your spec and we quote within one working day.</p>
+    <div class="grid" id="productGrid"></div>
+  </section>
+
+  <section id="companies" class="panel">
+    <h2 class="reveal">Group companies</h2>
+    <div class="grid small" id="companyGrid"></div>
+  </section>
+
+  <section id="careers" class="panel">
+    <div class="glass wide reveal">
+      <h2>Build your career with us</h2>
+      <p>We hire for plants, sales, quality, accounts and export operations. See current openings and apply on our recruitment portal.</p>
+      <a class="btn" href="https://purv.springrecruit.com/careers" target="_blank" rel="noopener">View open roles</a>
+    </div>
+  </section>
+
+  <section id="contact" class="panel">
+    <h2 class="reveal">Tell us what you need</h2>
+    <div class="cols">
+      <form id="leadForm" class="glass reveal" novalidate>
+        <label>Name<input name="name" required autocomplete="name"></label>
+        <label>Company<input name="company" autocomplete="organization"></label>
+        <label>Email<input name="email" type="email" required autocomplete="email"></label>
+        <label>Phone or WhatsApp<input name="phone" type="tel" autocomplete="tel"></label>
+        <label>Country<input name="country" autocomplete="country-name"></label>
+        <label>Product
+          <select name="product" id="productSelect"></select>
+        </label>
+        <label class="full">Requirement and monthly quantity<textarea name="message" rows="4"></textarea></label>
+        <button class="btn full" type="submit">Send enquiry</button>
+        <p class="note full" id="formNote" role="status"></p>
+      </form>
+      <div class="reveal info">
+        <h3>Head office</h3>
+        <p>23 Sarat Bose Road, Suite 1C, Annapurna Apartment, Kolkata 700020, West Bengal, India</p>
+        <h3>Call</h3>
+        <p><a href="tel:03340703238">033-40703238</a><br><a href="tel:+919903132888">+91 9903132888</a></p>
+        <h3>Email</h3>
+        <p><a href="mailto:info@purv.in">info@purv.in</a></p>
+        <h3>Follow</h3>
+        <p><a href="https://www.linkedin.com/company/purv-group/" target="_blank" rel="noopener">LinkedIn</a></p>
+      </div>
+    </div>
+  </section>
+</main>
+
+<footer class="foot">© <span id="year"></span> Purv Group. All rights reserved.</footer>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
+<script src="js/data.js"></script>
+<script src="js/scene.js"></script>
+<script src="js/main.js"></script>
+</body>
+</html>
