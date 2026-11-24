@@ -73,7 +73,7 @@
     ['Neptune', 2, 'neptunemap.jpg', 0x2f55d6, 0.5, 0x4d6bff]
   ];
   // Your own PNG/WebP planet photos. file, share of the image width that the planet disc fills.
-  const PHOTO = { Sun: ['sun.webp', 0.82], Venus: ['venus.webp', 1], Earth: ['earth.webp', 1], Jupiter: ['jupiter.webp', 1] };
+  const PHOTO = { Sun: ['sun.webp', 0.82], Venus: ['venus.webp', 1], Earth: ['earth.webp', 1], Jupiter: ['jupiter.webp', 1], Neptune: ['neptune.webp', 1], Uranus: ['uranus.webp', 1] };
   const GAP = 22, START = -8, planets = [];
   let moon = null;
 
